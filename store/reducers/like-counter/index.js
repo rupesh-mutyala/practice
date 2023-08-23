@@ -23,7 +23,6 @@ const counterSlice = createSlice({
 	},
 });
 
-console.log('counterSlice', counterSlice);
 export const { increment, decrement, incrementByAmount, decreaseByAmount } =
 	counterSlice.actions;
 
